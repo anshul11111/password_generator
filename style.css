@@ -1,0 +1,130 @@
+* {
+    
+    margin: 1px;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body {
+    background-color: rgb(13, 13, 88);
+    color: white;
+
+
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.display input {
+    font-size: 30px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 26px;
+    border-radius: 5px;
+}
+
+.container button {
+    width 28px;
+    margin-right: 10px;
+    color: #237683;
+
+
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #1890a3;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 600px){
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        } 
+        body {
+            overflow: hidden;
+            background-color: rgb(13, 13, 88);
+            color: white;
+        }
+    
+        .container {
+            margin: 12%;
+            width: 90%;
+            max-width: 100px;
+        }
+    
+        .display {
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+    
+        .display input {
+            font-size: 29px;
+            border-radius: 5px;
+        }
+    
+        .container button {
+            margin-right: 10px;
+            color: #237683;
+        }
+    
+        .container button {
+            background: #1890a3;
+            color: white;
+            font-size: 19px;
+            font-weight: 100;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        /* Media query for smaller displays */
+        @media screen and (max-width: 399px) {
+            .container {
+                margin: 5%;
+                /* Adjusted margin for smaller displays */
+                max-width: 90%;
+                /* Adjusted max-width for smaller displays */
+            }
+    
+            .display input {
+                font-size: 20px;
+                /* Adjusted font size for input on smaller displays */
+                padding: 10px 20px;
+                /* Adjusted padding for input on smaller displays */
+            }
+    
+            .container button {
+                font-size: 18px;
+                /* Adjusted font size for button on smaller displays */
+                padding: 10px 20px;
+                /* Adjusted padding for button on smaller displays */
+            }
+        }
+}
